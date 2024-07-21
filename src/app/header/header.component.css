@@ -18,6 +18,15 @@ header {
   box-shadow: 0 1px 8px rgba(0, 0, 0, 0.6);
 }
 
+header:hover {
+  background: linear-gradient(
+    to bottom,
+    #2c0a4c,
+    #831bf2
+  );
+  cursor: pointer;
+}
+
 img {
   width: 3.5rem;
   object-fit: contain;
